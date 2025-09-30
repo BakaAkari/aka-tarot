@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-aka-tarot",
   "description": "自用塔罗牌插件",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -18,6 +18,17 @@
     "koishi",
     "plugin"
   ],
+  "koishi": {
+    "description": {
+      "en": "aka-tarot",
+      "zh": "抽取塔罗牌"
+    },
+    "category": "tool",
+    "locales": [
+      "zh",
+      "en"
+    ]
+  },
   "peerDependencies": {
     "koishi": "^4.18.9"
   }
