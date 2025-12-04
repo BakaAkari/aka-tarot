@@ -29,6 +29,10 @@
       "en"
     ]
   },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
   "peerDependencies": {
     "koishi": "^4.18.9"
   }
