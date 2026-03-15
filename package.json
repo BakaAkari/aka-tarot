@@ -35,5 +35,8 @@
   },
   "peerDependencies": {
     "koishi": "^4.18.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
